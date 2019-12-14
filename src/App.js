@@ -1,13 +1,14 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
+import Main from './pages';
+import { Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div>
-      <h1>
-        Netflix Project
-      </h1>
-    </div>
+      <Switch>
+        <Route path="/" component={Main} />
+      </Switch>
   );
 }
 
