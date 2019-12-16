@@ -4,7 +4,7 @@
     --main-red-hover: #e50915;
     --main-dark: rgba(20,20,20);
     --main-deep-dark: rgba(0,0,0);
-    --main-gray: rgba(153,153,153);
+    --main-grey: rgba(153,153,153);
 }
 
 *{
@@ -16,6 +16,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background: var(--main-dark);
     color: #fff;
+    overflow-x: hidden;
 }
 
 a {
