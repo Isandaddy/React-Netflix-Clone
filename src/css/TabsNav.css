@@ -48,3 +48,18 @@ ul li:hover {
 ul li:hover svg path {
     fill: #fff;
 }
+
+/* The The Active Tab */
+
+.active {
+    border-bottom: 4px solid var(--main-red);
+
+}
+
+.tab-selected {
+    color: #fff;
+}
+
+.tab-selected svg path {
+    fill: #fff;
+}

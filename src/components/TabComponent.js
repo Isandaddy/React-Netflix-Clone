@@ -6,25 +6,29 @@ import TabPrices from './tabs_nav/TabPrices';
 import '../css/TabsNav.css';
 
 class TabComponent extends Component {
+    state = {
+        tabIndex: 0
+    }
     render() {
         return (
             <div>
-                <Tabs className="tabs">
+                <Tabs className="tabs" selectedIndex={this.state.tabIndex} onSelect={tabIndex =>
+                this.setState({tabIndex})}>
                     <TabList className="tab-nav-container">
-                        <Tab>
+                        <Tab className={`${this.state.tabIndex === 0 ? 'tab-selected active' : null}`}>
                             <TabDoor />
-                            <p>
+                            <p style={{marginBottom: '1.875rem'}}>
                                 <strong>No commitments<br />
                                     Cancel at online anytime</strong>
                             </p>
                         </Tab>
-                        <Tab>
+                        <Tab className={`${this.state.tabIndex === 1 ? 'tab-selected active' : null}`}>
                             <TabDevices />
                             <p style={{marginTop: '-5.3125rem'}}>
                                 <strong>Watch anytime</strong>
                             </p>
                         </Tab>
-                        <Tab>
+                        <Tab className={`${this.state.tabIndex === 2 ? 'tab-selected active' : null}`}>
                             <TabPrices />
                             <p>
                                 <strong>Pick your price</strong>
