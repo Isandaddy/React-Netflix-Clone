@@ -4,7 +4,9 @@ import TabDoor from './tabs_nav/TabDoor';
 import TabDevices from './tabs_nav/TabDevices';
 import TabPrices from './tabs_nav/TabPrices';
 import '../css/TabsNav.css';
+// Tabs Content
 import TabContentOne from './TabContentOne';
+import TabContentTwo from './TabContentTwo';
 
 class TabComponent extends Component {
     state = {
@@ -41,7 +43,7 @@ class TabComponent extends Component {
                         <TabContentOne />
                     </TabPanel>
                     <TabPanel>
-                        <TabContentOne />
+                        <TabContentTwo />
                     </TabPanel>
                     <TabPanel>
                         <TabContentOne />
