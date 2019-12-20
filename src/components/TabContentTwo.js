@@ -15,21 +15,23 @@ function TabContentTwo() {
                 </div>
                 {/* Tab Botton Content */}
                 <div className="tab-bottom-content">
-                    <img src={ImgTV} alt="" style={{width: '18.75rem'}} />
-                    <h3>Watch on your TV</h3>
-                    <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more.</p>
-                </div>
-                {/* Tablet Botton Content */}
-                <div className="tab-bottom-content">
-                    <img src={ImgTablet} alt="" style={{width: '18.75rem', paddingTop: '0.625rem'}} />
-                    <h3>Watch on your TV</h3>
-                    <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more.</p>
-                </div>
-                {/* Macbook Botton Content */}
-                <div className="tab-bottom-content">
-                    <img src={ImgMacbook} alt="" style={{width: '18.75rem', paddingTop: '0.625rem', paddingBottom: '0.625rem'}} />
-                    <h3>Watch on your TV</h3>
-                    <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more.</p>
+                    <div>
+                        <img src={ImgTV} alt="" style={{width: '18.75rem'}} />
+                        <h3>Watch on your TV</h3>
+                        <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more.</p>
+                    </div>
+                    {/* Tablet Botton Content */}
+                    <div>
+                        <img src={ImgTablet} alt="" style={{width: '18.75rem', paddingTop: '0.625rem'}} />
+                        <h3>Watch on your TV</h3>
+                        <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more.</p>
+                    </div>
+                    {/* Macbook Botton Content */}
+                    <div>
+                        <img src={ImgMacbook} alt="" style={{width: '18.75rem', paddingTop: '0.625rem', paddingBottom: '0.625rem'}} />
+                        <h3>Watch on your TV</h3>
+                        <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray players and more.</p>
+                    </div>
                 </div>
             </div>
         </TabContainer>
